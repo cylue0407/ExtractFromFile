@@ -9,8 +9,6 @@ def getTextFromPDF(filePath):
     pdfText = ""
     for page_count in range(num_page):
         pdfText += pdfRdr.getPage(page_count).extractText()
-    #print("PDF File Name: " + pdfDoc.name)
-    #print("PDF File Pages: " + str(num_page))
     result = pdfText
     pdfDoc.close()
     return result
