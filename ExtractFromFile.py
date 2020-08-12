@@ -37,14 +37,3 @@ if __name__ == '__main__':
                 add_to_file(myFile, item)
     else:
         print("Can't find that file.")
-
-    
-
-#rawText = ReadFile.getTextFromDoc("test.docx")
-#print(rawText)
-#if RegularEx.reEXEmail(rawText):
-#    print("Match Success")
-#else:
-#    print("Match Failed.")
-#RegularEx.reEXEmail("My email is: xx@163.com & xx@gmail.com")
-#RegularEx.reEXEmail(rawText)
