@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     if os.path.isfile(args[0]):
         # create file to export emails
-        extensionTime = time.strftime("%H%M%S")
+        extensionTime = time.strftime("%Y%M%D%H%M%S")
         myFile = "emailList_"+extensionTime+".txt"
         #Check File Type
         if(os.path.splitext(args[0])[1] == ".docx"):
